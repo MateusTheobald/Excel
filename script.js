@@ -1,4 +1,4 @@
-const socket = new WebSocket(`ws://${window.location.host}`);
+const socket = new WebSocket(`ws://localhost:3000`);
 const connectBtn = document.getElementById("connectBtn");
 
 const gauges = {
